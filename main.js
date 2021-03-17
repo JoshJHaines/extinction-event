@@ -1,4 +1,4 @@
-const lineThruOL = document.querySelectorAll('.ol');
+const lineThruOL = document.querySelectorAll('ol');
 
 for (const li of lineThruOL) {
     li.addEventListener('click', function (event) {
