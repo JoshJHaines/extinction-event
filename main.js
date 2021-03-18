@@ -7,3 +7,12 @@ for (const li of lineThruOL) {
         elementThatWasClicked.style.textDecoration = "line-through";
     });
 }
+
+const opacList = document.querySelectorAll('ul')
+
+for (const ul of opacList){
+    ul.addEventListener('click', function(event){
+        const elementThatWasClicked = event.target;
+        elementThatWasClicked.style.opacity = '0.25'
+    })
+}
