@@ -27,3 +27,10 @@ for (const picture of pictures) {
 }
 
 
+const meteor = document.querySelector("#destroy-all") 
+
+meteor.addEventListener("click", function(event){
+    const app = document.querySelector(".app")
+    app.style.display = 'none'
+})
+
